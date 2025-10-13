@@ -1,0 +1,12 @@
+.bind-form {
+    width: 50%;
+    margin: auto;
+}
+
+.success {
+  background-color: #dbf8d7;
+  color: #2ebc62;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
