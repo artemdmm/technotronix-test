@@ -63,7 +63,7 @@ export const Modal = ({ closeModal, onSubmit, defaultValue, onError }) => {
           {errors && <div className="error">{`Введите все поля`}</div>}
           {onError && !errors && <div className="error">{`Название должно быть уникальным`}</div>}
           <button type="submit" className="btn" onClick={handleSubmit}>
-            Submit
+            Сохранить
           </button>
         </form>
       </div>
